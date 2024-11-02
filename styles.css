@@ -7,7 +7,7 @@ body {
   font-family: Roboto, Helvetica, sans-serif;
   text-align: center;
   margin-top: 40px;
-  background-color: #ab3b4f;
+  background-color: #640202;
 }
 input,
 button {
@@ -35,20 +35,14 @@ main {
   padding: 20px 10px;
 }
 
-.freecodecamp-logo {
-  max-width: 400px;
-  height: 60px;
-  margin-bottom: 20px;
-  background-color: black;
-  padding: 10px;
-  border-radius: 10px;
-}
-
 h1 {
-  color: #15f5a7;
-  max-width: 450px;
+  color: #013c28;
+  max-width: 500px;
   margin: 10px 0;
   text-align: var(--center-text);
+  background-color: #ff8c01;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 .phone-container {
@@ -128,4 +122,13 @@ label {
   padding: 5px;
   text-align: var(--center-text);
   margin: 10px 0;
+}
+
+#name {
+  background-color: #09f42c;
+  padding: 10px;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
 }
